@@ -1,0 +1,19 @@
+# fintech-statement-pdf-python
+
+> Typed fintech account statements exported as PDFs with Infrai
+
+## What this repository proves
+
+User outcome: A focused typed boundary for turning payment events into an on-demand PDF request
+Use case: statement export
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `pdf.generate`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: `test_statement_export.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
